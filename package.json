@@ -11,7 +11,7 @@
     "arxan4web", "a4web"
   ],
   "author": "Arxan NPM (npm-admin@arxan.com)",
-  "license": "MIT",
+  "license": "BSD-2-Clause",
   "dependencies": {
     "child-process-promise": "^2.2.1",
     "download": "^7.1.0",
