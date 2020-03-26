@@ -1,0 +1,32 @@
+{
+  "name": "a4web",
+  "version": "3.0.0",
+  "description": "Arxan for Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node lib/postinstall.js"
+  },
+  "keywords": [
+    "arxan4web", "a4web"
+  ],
+  "author": "Arxan NPM (npm-admin@arxan.com)",
+  "license": "MIT",
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "download": "^7.1.0",
+    "fs-extra": "^8.1.0",
+    "querystring": "^0.2.0",
+    "request": "^2.34.0",
+    "request-promise-native": "^1.0.7",
+    "tmp": "^0.1.0",
+    "dmg": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0"
+  }
+}
