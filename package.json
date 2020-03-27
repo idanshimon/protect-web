@@ -1,6 +1,6 @@
 {
   "name": "a4web",
-  "version": "3.0.0a",
+  "version": "3.1.0",
   "description": "Arxan for Web",
   "main": "index.js",
   "scripts": {
