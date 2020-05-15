@@ -9,6 +9,7 @@ Before you can install or use this package, you must:
 1. Be a current Arxan customer.
 2. Review the platform requirements in the most recent version of the *Arxan for Web* online help, which is available from Arxan.
 3. Obtain an API Key, API Secret, and License Token from Arxan.
+    * Make sure the API Key has the "Product download" checkbox checked.
 4. Add the following environment variables:
 
 ```
