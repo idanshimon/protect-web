@@ -84,6 +84,24 @@ module.exports = {
 }
 ```
 
+To see the protection summary, add the ```stats``` field, as follows:
+
+```
+const {WebpackPlugin} = require('a4web');
+module.exports = {
+    stats: {
+        logging: 'log'
+    },
+    plugins : [
+        new WebpackPlugin()
+    ]
+}
+```
+
+You can set the following values for ```logging```:
+- none - disable logging
+- log - displays errors, warnings, info messages, and log messages
+
 ## Learn More
 
 Visit www.arxan.com to learn more about Arxan's protection solutions.
