@@ -1,6 +1,6 @@
 {
   "name": "protect-web",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "description": "Digital.ai Web App Protection",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
-    "url": "git://github.com/arxan/a4web.git"
+    "url": "git://github.com/digital-ai/protect-web.git"
   },
   "dependencies": {
     "child-process-promise": "^2.2.1",
