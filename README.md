@@ -11,11 +11,13 @@ Before you can install or use this package, you must:
 3. Obtain an API Key, API Secret, and License Token from Digital.ai.
     * Make sure the API Key has the "Product download" checkbox checked.
 4. Add the following environment variables:
+    * `PROTECT_LICENSE_REGION` variable is optional, the default region is "NorthAmerica".
 
 ```
 PROTECT_API_KEY="myapikey"
 PROTECT_API_SECRET="mysecret"
 PROTECT_LICENSE_TOKEN="mylicensetoken"
+PROTECT_LICENSE_REGION="myregion"
 ```
 
 **NOTE:** This package should not be installed globally.
