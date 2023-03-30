@@ -20,7 +20,13 @@ PROTECT_LICENSE_TOKEN="mylicensetoken"
 PROTECT_LICENSE_REGION="myregion"
 ```
 
+**NOTE:** PROTECT_LICENSE_TOKEN can be setup after the package has been installed.
+
+**NOTE:** PROTECT_API_KEY, PROTECT_API_SECRET and PROTECT_LICENSE_REGION can be setup before the package has been installed, or after. If they are setup after the package has been installed, then the package dependencies will be downloaded the first time the protection is run. Otherwise, the package dependencies are downloaded during the package installation.
+
 **NOTE:** This package should not be installed globally.
+
+**NOTE:** Web App will not run on Alpine Linux because of differences in shared system libraries. We recommend that you avoid using an Alpine Linux based image for Docker or any other container.
 
 ## Protect
 
